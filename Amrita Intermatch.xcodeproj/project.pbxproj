@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A11CA2F0291CA8EB0041D413 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11CA2EF291CA8EB0041D413 /* RegisterView.swift */; };
+		A11CA2F2291CAECA0041D413 /* ResetPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11CA2F1291CAECA0041D413 /* ResetPassword.swift */; };
+		A11CA2F4291CDCED0041D413 /* Reccomendation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11CA2F3291CDCED0041D413 /* Reccomendation.swift */; };
+		A11CA2F6291CE0330041D413 /* Likes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11CA2F5291CE0330041D413 /* Likes.swift */; };
+		A15CB0F1291D51F800D60BA2 /* Load.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15CB0F0291D51F800D60BA2 /* Load.swift */; };
+		A18289B5291E984B003A0052 /* ExpandProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18289B4291E984B003A0052 /* ExpandProject.swift */; };
+		A1B7B671291CF3B700BE92CB /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B7B670291CF3B700BE92CB /* Profile.swift */; };
+		A1C4A8AB291C1A1A00E7EF0A /* Amrita_IntermatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C4A8AA291C1A1A00E7EF0A /* Amrita_IntermatchApp.swift */; };
+		A1C4A8AD291C1A1A00E7EF0A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C4A8AC291C1A1A00E7EF0A /* ContentView.swift */; };
+		A1C4A8AF291C1A1B00E7EF0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1C4A8AE291C1A1B00E7EF0A /* Assets.xcassets */; };
+		A1C4A8B2291C1A1B00E7EF0A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1C4A8B1291C1A1B00E7EF0A /* Preview Assets.xcassets */; };
+		A1C4A8BC291C1A1B00E7EF0A /* Amrita_IntermatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C4A8BB291C1A1B00E7EF0A /* Amrita_IntermatchTests.swift */; };
+		A1C4A8C6291C1A1B00E7EF0A /* Amrita_IntermatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C4A8C5291C1A1B00E7EF0A /* Amrita_IntermatchUITests.swift */; };
+		A1C4A8C8291C1A1B00E7EF0A /* Amrita_IntermatchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C4A8C7291C1A1B00E7EF0A /* Amrita_IntermatchUITestsLaunchTests.swift */; };
+		A1C4A8D5291C37DE00E7EF0A /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C4A8D4291C37DE00E7EF0A /* Tab.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1C4A8B8291C1A1B00E7EF0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1C4A89F291C1A1A00E7EF0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1C4A8A6291C1A1A00E7EF0A;
+			remoteInfo = "Amrita Intermatch";
+		};
+		A1C4A8C2291C1A1B00E7EF0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1C4A89F291C1A1A00E7EF0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1C4A8A6291C1A1A00E7EF0A;
+			remoteInfo = "Amrita Intermatch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A11CA2EF291CA8EB0041D413 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		A11CA2F1291CAECA0041D413 /* ResetPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPassword.swift; sourceTree = "<group>"; };
+		A11CA2F3291CDCED0041D413 /* Reccomendation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reccomendation.swift; sourceTree = "<group>"; };
+		A11CA2F5291CE0330041D413 /* Likes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Likes.swift; sourceTree = "<group>"; };
+		A15CB0F0291D51F800D60BA2 /* Load.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Load.swift; sourceTree = "<group>"; };
+		A18289B4291E984B003A0052 /* ExpandProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandProject.swift; sourceTree = "<group>"; };
+		A1B7B670291CF3B700BE92CB /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		A1C4A8A7291C1A1A00E7EF0A /* Amrita Intermatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Amrita Intermatch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1C4A8AA291C1A1A00E7EF0A /* Amrita_IntermatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amrita_IntermatchApp.swift; sourceTree = "<group>"; };
+		A1C4A8AC291C1A1A00E7EF0A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A1C4A8AE291C1A1B00E7EF0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1C4A8B1291C1A1B00E7EF0A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A1C4A8B7291C1A1B00E7EF0A /* Amrita IntermatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Amrita IntermatchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1C4A8BB291C1A1B00E7EF0A /* Amrita_IntermatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amrita_IntermatchTests.swift; sourceTree = "<group>"; };
+		A1C4A8C1291C1A1B00E7EF0A /* Amrita IntermatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Amrita IntermatchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1C4A8C5291C1A1B00E7EF0A /* Amrita_IntermatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amrita_IntermatchUITests.swift; sourceTree = "<group>"; };
+		A1C4A8C7291C1A1B00E7EF0A /* Amrita_IntermatchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amrita_IntermatchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A1C4A8D4291C37DE00E7EF0A /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1C4A8A4291C1A1A00E7EF0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1C4A8B4291C1A1B00E7EF0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1C4A8BE291C1A1B00E7EF0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1C4A89E291C1A1A00E7EF0A = {
+			isa = PBXGroup;
+			children = (
+				A1C4A8A9291C1A1A00E7EF0A /* Amrita Intermatch */,
+				A1C4A8BA291C1A1B00E7EF0A /* Amrita IntermatchTests */,
+				A1C4A8C4291C1A1B00E7EF0A /* Amrita IntermatchUITests */,
+				A1C4A8A8291C1A1A00E7EF0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1C4A8A8291C1A1A00E7EF0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1C4A8A7291C1A1A00E7EF0A /* Amrita Intermatch.app */,
+				A1C4A8B7291C1A1B00E7EF0A /* Amrita IntermatchTests.xctest */,
+				A1C4A8C1291C1A1B00E7EF0A /* Amrita IntermatchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1C4A8A9291C1A1A00E7EF0A /* Amrita Intermatch */ = {
+			isa = PBXGroup;
+			children = (
+				A1C4A8AA291C1A1A00E7EF0A /* Amrita_IntermatchApp.swift */,
+				A1C4A8AC291C1A1A00E7EF0A /* ContentView.swift */,
+				A1C4A8AE291C1A1B00E7EF0A /* Assets.xcassets */,
+				A1C4A8B0291C1A1B00E7EF0A /* Preview Content */,
+				A1C4A8D4291C37DE00E7EF0A /* Tab.swift */,
+				A15CB0F0291D51F800D60BA2 /* Load.swift */,
+				A1B7B670291CF3B700BE92CB /* Profile.swift */,
+				A11CA2F3291CDCED0041D413 /* Reccomendation.swift */,
+				A11CA2EF291CA8EB0041D413 /* RegisterView.swift */,
+				A11CA2F5291CE0330041D413 /* Likes.swift */,
+				A18289B4291E984B003A0052 /* ExpandProject.swift */,
+				A11CA2F1291CAECA0041D413 /* ResetPassword.swift */,
+			);
+			path = "Amrita Intermatch";
+			sourceTree = "<group>";
+		};
+		A1C4A8B0291C1A1B00E7EF0A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A1C4A8B1291C1A1B00E7EF0A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A1C4A8BA291C1A1B00E7EF0A /* Amrita IntermatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1C4A8BB291C1A1B00E7EF0A /* Amrita_IntermatchTests.swift */,
+			);
+			path = "Amrita IntermatchTests";
+			sourceTree = "<group>";
+		};
+		A1C4A8C4291C1A1B00E7EF0A /* Amrita IntermatchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1C4A8C5291C1A1B00E7EF0A /* Amrita_IntermatchUITests.swift */,
+				A1C4A8C7291C1A1B00E7EF0A /* Amrita_IntermatchUITestsLaunchTests.swift */,
+			);
+			path = "Amrita IntermatchUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1C4A8A6291C1A1A00E7EF0A /* Amrita Intermatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1C4A8CB291C1A1B00E7EF0A /* Build configuration list for PBXNativeTarget "Amrita Intermatch" */;
+			buildPhases = (
+				A1C4A8A3291C1A1A00E7EF0A /* Sources */,
+				A1C4A8A4291C1A1A00E7EF0A /* Frameworks */,
+				A1C4A8A5291C1A1A00E7EF0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Amrita Intermatch";
+			productName = "Amrita Intermatch";
+			productReference = A1C4A8A7291C1A1A00E7EF0A /* Amrita Intermatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1C4A8B6291C1A1B00E7EF0A /* Amrita IntermatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1C4A8CE291C1A1B00E7EF0A /* Build configuration list for PBXNativeTarget "Amrita IntermatchTests" */;
+			buildPhases = (
+				A1C4A8B3291C1A1B00E7EF0A /* Sources */,
+				A1C4A8B4291C1A1B00E7EF0A /* Frameworks */,
+				A1C4A8B5291C1A1B00E7EF0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1C4A8B9291C1A1B00E7EF0A /* PBXTargetDependency */,
+			);
+			name = "Amrita IntermatchTests";
+			productName = "Amrita IntermatchTests";
+			productReference = A1C4A8B7291C1A1B00E7EF0A /* Amrita IntermatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1C4A8C0291C1A1B00E7EF0A /* Amrita IntermatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1C4A8D1291C1A1B00E7EF0A /* Build configuration list for PBXNativeTarget "Amrita IntermatchUITests" */;
+			buildPhases = (
+				A1C4A8BD291C1A1B00E7EF0A /* Sources */,
+				A1C4A8BE291C1A1B00E7EF0A /* Frameworks */,
+				A1C4A8BF291C1A1B00E7EF0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1C4A8C3291C1A1B00E7EF0A /* PBXTargetDependency */,
+			);
+			name = "Amrita IntermatchUITests";
+			productName = "Amrita IntermatchUITests";
+			productReference = A1C4A8C1291C1A1B00E7EF0A /* Amrita IntermatchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1C4A89F291C1A1A00E7EF0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					A1C4A8A6291C1A1A00E7EF0A = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					A1C4A8B6291C1A1B00E7EF0A = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = A1C4A8A6291C1A1A00E7EF0A;
+					};
+					A1C4A8C0291C1A1B00E7EF0A = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = A1C4A8A6291C1A1A00E7EF0A;
+					};
+				};
+			};
+			buildConfigurationList = A1C4A8A2291C1A1A00E7EF0A /* Build configuration list for PBXProject "Amrita Intermatch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1C4A89E291C1A1A00E7EF0A;
+			productRefGroup = A1C4A8A8291C1A1A00E7EF0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1C4A8A6291C1A1A00E7EF0A /* Amrita Intermatch */,
+				A1C4A8B6291C1A1B00E7EF0A /* Amrita IntermatchTests */,
+				A1C4A8C0291C1A1B00E7EF0A /* Amrita IntermatchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1C4A8A5291C1A1A00E7EF0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C4A8B2291C1A1B00E7EF0A /* Preview Assets.xcassets in Resources */,
+				A1C4A8AF291C1A1B00E7EF0A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1C4A8B5291C1A1B00E7EF0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1C4A8BF291C1A1B00E7EF0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1C4A8A3291C1A1A00E7EF0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C4A8D5291C37DE00E7EF0A /* Tab.swift in Sources */,
+				A1B7B671291CF3B700BE92CB /* Profile.swift in Sources */,
+				A11CA2F0291CA8EB0041D413 /* RegisterView.swift in Sources */,
+				A11CA2F2291CAECA0041D413 /* ResetPassword.swift in Sources */,
+				A15CB0F1291D51F800D60BA2 /* Load.swift in Sources */,
+				A1C4A8AD291C1A1A00E7EF0A /* ContentView.swift in Sources */,
+				A11CA2F4291CDCED0041D413 /* Reccomendation.swift in Sources */,
+				A1C4A8AB291C1A1A00E7EF0A /* Amrita_IntermatchApp.swift in Sources */,
+				A11CA2F6291CE0330041D413 /* Likes.swift in Sources */,
+				A18289B5291E984B003A0052 /* ExpandProject.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1C4A8B3291C1A1B00E7EF0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C4A8BC291C1A1B00E7EF0A /* Amrita_IntermatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1C4A8BD291C1A1B00E7EF0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C4A8C6291C1A1B00E7EF0A /* Amrita_IntermatchUITests.swift in Sources */,
+				A1C4A8C8291C1A1B00E7EF0A /* Amrita_IntermatchUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1C4A8B9291C1A1B00E7EF0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1C4A8A6291C1A1A00E7EF0A /* Amrita Intermatch */;
+			targetProxy = A1C4A8B8291C1A1B00E7EF0A /* PBXContainerItemProxy */;
+		};
+		A1C4A8C3291C1A1B00E7EF0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1C4A8A6291C1A1A00E7EF0A /* Amrita Intermatch */;
+			targetProxy = A1C4A8C2291C1A1B00E7EF0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A1C4A8C9291C1A1B00E7EF0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1C4A8CA291C1A1B00E7EF0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1C4A8CC291C1A1B00E7EF0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Amrita Intermatch/Preview Content\"";
+				DEVELOPMENT_TEAM = 9ALZTYWPL6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kvaisakhkrishnan.Amrita-Intermatch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1C4A8CD291C1A1B00E7EF0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Amrita Intermatch/Preview Content\"";
+				DEVELOPMENT_TEAM = 9ALZTYWPL6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kvaisakhkrishnan.Amrita-Intermatch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A1C4A8CF291C1A1B00E7EF0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9ALZTYWPL6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kvaisakhkrishnan.Amrita-IntermatchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amrita Intermatch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Amrita Intermatch";
+			};
+			name = Debug;
+		};
+		A1C4A8D0291C1A1B00E7EF0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9ALZTYWPL6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kvaisakhkrishnan.Amrita-IntermatchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amrita Intermatch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Amrita Intermatch";
+			};
+			name = Release;
+		};
+		A1C4A8D2291C1A1B00E7EF0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9ALZTYWPL6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kvaisakhkrishnan.Amrita-IntermatchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Amrita Intermatch";
+			};
+			name = Debug;
+		};
+		A1C4A8D3291C1A1B00E7EF0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9ALZTYWPL6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kvaisakhkrishnan.Amrita-IntermatchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Amrita Intermatch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1C4A8A2291C1A1A00E7EF0A /* Build configuration list for PBXProject "Amrita Intermatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1C4A8C9291C1A1B00E7EF0A /* Debug */,
+				A1C4A8CA291C1A1B00E7EF0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1C4A8CB291C1A1B00E7EF0A /* Build configuration list for PBXNativeTarget "Amrita Intermatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1C4A8CC291C1A1B00E7EF0A /* Debug */,
+				A1C4A8CD291C1A1B00E7EF0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1C4A8CE291C1A1B00E7EF0A /* Build configuration list for PBXNativeTarget "Amrita IntermatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1C4A8CF291C1A1B00E7EF0A /* Debug */,
+				A1C4A8D0291C1A1B00E7EF0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1C4A8D1291C1A1B00E7EF0A /* Build configuration list for PBXNativeTarget "Amrita IntermatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1C4A8D2291C1A1B00E7EF0A /* Debug */,
+				A1C4A8D3291C1A1B00E7EF0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1C4A89F291C1A1A00E7EF0A /* Project object */;
+}
