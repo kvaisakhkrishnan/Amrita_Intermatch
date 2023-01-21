@@ -7,9 +7,20 @@
 //
 
 import SwiftUI
-import Foundation
+import SwiftSMTP
+
+let smtp = SMTP(
+    hostname: "smtp.gmail.com",
+    email: "kvaisakhkrishnan@gmail.com",
+    password: "pgrbcxabxctsnesi"
+)
 
 struct RegisterView: View {
+    
+    @State var pass : Bool = false
+    @State var errorMessage : String = ""
+    @State var wrongEmail = false
+    @State var otp = 0
     @State var userName = ""
     @State var password = ""
     @State var email = ""
@@ -18,8 +29,7 @@ struct RegisterView: View {
     @State var emptyField = false
     @State var firstName = ""
     @State var lastName = ""
-    @State var registered = false
-    @State var backToLogin = false
+    @State var goToOtp = false
     @State var role = "F"
     
    
@@ -27,9 +37,10 @@ struct RegisterView: View {
     var body: some View {
         
         
-            if(backToLogin)
+            if(goToOtp)
         {
-                ContentView()
+               
+                OTPView(userName: userName, otp: otp, firstName: firstName, email: email, password: password, lastName: lastName, interests: [""], role: role, aboutMe: "", github: "", linkedin: "")
                 
             }
         
@@ -43,14 +54,14 @@ struct RegisterView: View {
                     VStack
                     {
                         
-                        Image("amritadraw")
+                        Image("Mobile login-pana")
                             .resizable()
                             .aspectRatio(contentMode: .fit)
                         
                         
                         Text("Register")
                             .font(.title)
-                            .padding(.top, 50)
+                            
                             
                         
                         
@@ -70,7 +81,7 @@ struct RegisterView: View {
                                 Text("Username")
                             }
                             
-                            TextField(text: $email, prompt: Text("Amrita e-Mail")) {
+                            TextField(text: $email, prompt: Text("Amrita Email")) {
                                 Text("Username")
                             }
                             
@@ -87,10 +98,23 @@ struct RegisterView: View {
                                     registerUser()
                                 } label: {
                                     Text("REGISTER")
-                                        .foregroundColor(Color(red: 2/255, green: 52/255, blue: 48/255))
+                                    
+                                        .frame(maxWidth: .infinity)
                                         .font(.headline)
+                                    
+                                    
+                                    
+                                        .padding(10)
+                                    
+                                    
+                                        .foregroundColor(.white)
+                                    
+                                    
+                                       
                                        
                                 }
+                                .background(Color(red: 2/255, green: 52/255, blue: 48/255))
+                                .cornerRadius(10)
                                 Spacer()
                                 
                                 
@@ -108,18 +132,12 @@ struct RegisterView: View {
                                     
                                     Text("     LOGIN")
                                         .frame(maxWidth: .infinity)
+                                        .foregroundColor(Color(red: 2/255, green: 52/255, blue: 48/255))
                                         .font(.headline)
-                                    
-                                    
-                                    
-                                        .padding(10)
-                                    
-                                    
-                                        .foregroundColor(.white)
+                                        
                                     
                                 }
-                                .background(Color(red: 2/255, green: 52/255, blue: 48/255))
-                                .cornerRadius(10)
+                               
                             }
                             
                             
@@ -156,20 +174,49 @@ struct RegisterView: View {
                     
                 }
             }
-            .alert("Credentials already registered", isPresented: $alertShow) {
+            
+            .alert(errorMessage , isPresented: $alertShow) {
                 Button("OK", role: .cancel) { alertShow = false}
             }
             .alert("Missing Field", isPresented: $emptyField) {
                 Button("OK", role: .cancel) { emptyField = false}
             }
-            .alert("Succesfully Registered", isPresented: $registered) {
-                Button("OK", role: .cancel) { backToLogin = true}
+            .alert("Invalid Amrita Email", isPresented: $wrongEmail) {
+                Button("OK", role: .cancel) { wrongEmail = false}
+            }
+            
+            .alert("Password should be minimum 6 characters long", isPresented: $pass) {
+                Button("OK", role: .cancel) { pass = false}
+            }
+           
+            
+        
+            .onAppear()
+            {
+                initialize()
+                
             }
        
         }
+            
         
         
 
+    }
+    
+    
+    func initialize()
+    {
+        userName = ""
+        password = ""
+        email = ""
+       loading = false
+        alertShow = false
+        emptyField = false
+        firstName = ""
+        lastName = ""
+        goToOtp = false
+        role = "F"
     }
     
     func registerUser()
@@ -179,15 +226,29 @@ struct RegisterView: View {
             emptyField = true
             
         }
+        
+        else if(!email.contains("amrita.edu"))
+        {
+            wrongEmail = true
+        }
+        
+        
+        else if(password.count < 6)
+        {
+            pass = true
+        }
+        
+        
+        
         else{
             
+
             
             loading = true
             
-            
-            
             let headers = [
                 "Content-Type": "application/json",
+                "Access-Control-Request-Headers": "*",
                 "api-key": "ksLzIRbGlgWNcZBkKwHgWBapyhdJ6HBIyhHON5Yj1DuZh95QxOogl15Blu85Ldmv"
             ]
             
@@ -196,13 +257,13 @@ struct RegisterView: View {
             ["collection": "User",
              "database": "Interconnect",
              "dataSource": "Cluster0",
-             "document": ["userName" : userName, "password" : password,"official" : email ]
+             "filter": [ "$or" : [ ["userName": userName], ["official" : email]]]
             ]
             
             let jsonData = try? JSONSerialization.data(withJSONObject: json)
             
             // create post request
-            let url = URL(string: "https://data.mongodb-api.com/app/data-etamo/endpoint/data/v1/action/insertOne")!
+            let url = URL(string: "https://data.mongodb-api.com/app/data-etamo/endpoint/data/v1/action/findOne")!
             var request = URLRequest(url: url)
             request.httpMethod = "POST"
             request.allHTTPHeaderFields = headers
@@ -216,59 +277,26 @@ struct RegisterView: View {
                     return
                 }
                 let responseJSON = try? JSONSerialization.jsonObject(with: data, options: [])
-                if let responseJSON = responseJSON as? [String: Any] {
+                if let responseJSON = responseJSON as? [String: NSDictionary] {
                     
-                    
-                    
-                    
-                    if(email.contains("students"))
+                    let data = responseJSON["document"]!
+                    let user = data["userName"] as! String
+                    if(user == userName)
                     {
-                        role = "S"
+                        errorMessage = "Username already taken"
                     }
-                    
-                    
-                    let json: [String: Any] =
-                    ["collection": "Profile",
-                     "database": "Interconnect",
-                     "dataSource": "Cluster0",
-                     "document": ["user" : userName, "firstName" : firstName, "lastName" : lastName, "role" : role, "interests" : [], "aboutMe" : ""]
-                    ]
-                    
-                    let jsonData = try? JSONSerialization.data(withJSONObject: json)
-                    
-                    // create post request
-                    let url = URL(string: "https://data.mongodb-api.com/app/data-etamo/endpoint/data/v1/action/insertOne")!
-                    var request = URLRequest(url: url)
-                    request.httpMethod = "POST"
-                    request.allHTTPHeaderFields = headers
-                    
-                    // insert json data to the request
-                    request.httpBody = jsonData
-                    
-                    let task = URLSession.shared.dataTask(with: request) { data, response, error in
-                        guard let data = data, error == nil else {
-                            print(error?.localizedDescription ?? "No data")
-                            return
-                        }
-                        let responseJSON = try? JSONSerialization.jsonObject(with: data, options: [])
-                        if let responseJSON = responseJSON as? [String: Any] {
-                        }
-                        
-                        
+                    else
+                    {
+                        errorMessage = "Amrita eMail already registered"
                     }
-                    task.resume()
-                    
-                    
-                    
-                    registered = true
-                    loading = false
-                }
-                else
-                    
-                {
-                   registered = false
                     loading = false
                     alertShow = true
+                    
+                }
+                else
+                {
+                    loading = false
+                    goToOtp = true
                 }
                
                 
@@ -279,13 +307,18 @@ struct RegisterView: View {
             
             
             
+
+            
             
         }
+            
     }
     
+        
     
     
-   
+    
+    
 
     
 }

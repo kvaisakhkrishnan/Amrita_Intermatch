@@ -38,14 +38,14 @@ struct ResetPassword: View {
                     VStack
                     {
                         
-                        Image("amritadraw")
+                        Image("3275434")
                             .resizable()
                             .aspectRatio(contentMode: .fit)
                         
                         
                         Text("Reset Password")
                             .font(.title)
-                            .padding(.top, 50)
+                            
                             
                         
                         
@@ -60,8 +60,8 @@ struct ResetPassword: View {
                                 
                                 
                                 
-                                TextField(text: $email, prompt: Text("Amrita e-Mail")) {
-                                    Text("Amrita e-Mail")
+                                TextField(text: $email, prompt: Text("Amrita Email")) {
+                                    Text("Amrita Email")
                                 }
                                 
                                 
@@ -216,6 +216,7 @@ struct ResetPassword: View {
                    }
                     
                 }
+                .disabled(loading)
             }
             .alert("User not found", isPresented: $alertShow) {
                 Button("OK", role: .cancel) { alertShow = false}
@@ -273,7 +274,7 @@ struct ResetPassword: View {
                 return
             }
             let responseJSON = try? JSONSerialization.jsonObject(with: data, options: [])
-            if let responseJSON = responseJSON as? [String: Any] {
+            if responseJSON is [String: Any] {
                
                 
                 alertShowNew = true

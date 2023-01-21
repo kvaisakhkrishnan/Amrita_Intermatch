@@ -16,82 +16,116 @@ struct project : Identifiable{
     var keyword : [String]
     var published : String
     var desc : String
+    
 }
 
 
 
 struct Likes: View {
-    @State var userName : String
+    
+    @State var email : String
     @State var plist : [project] = []
     @State var isloading = false
     var body: some View {
         
         
         
-        ZStack{
-        NavigationView {
+       
+        
             
             
-            
-            
-            List{
-                
-                
-                
-                ForEach(plist) { data in
+            ZStack{
+                NavigationView {
                     
-                    NavigationLink {
-                        ExpandProject(pid: data.pid, pname: data.pname, pfaculty: data.faculty, keywords: data.keyword, desc: data.desc, published: data.published, match: data.match)
-                    } label: {
-                        VStack
-                        {
-                            Text(data.pname)
-                                .bold()
-                                .padding(.bottom,2)
-                                .frame(maxWidth: .infinity,alignment: .leading)
-                            ProgressView(value: data.match/100)
-                            {
-                                Text("Match : "+String(data.match)+"%")
-                            }
-                            .progressViewStyle(LinearProgressViewStyle(tint:Color(red: 2/255, green: 100/255, blue: 48/255)))
-                            .padding(.bottom,10)
-                            
-                            
-                        }
+                   
+                    
+                    if(plist.count == 0)
+                    {
+                        
+                        Text("No liked projects")
+                            .foregroundColor(Color(red: 185/255, green: 185/255, blue: 185/255))
+                            .font(.title3)
+                            .fontWeight(.regular)
                     }
                     
                     
+                    else{
                     
+                    List{
+                        
+                        
+                        
+                        ForEach(plist) { data in
+                            
+                            NavigationLink {
+                                ExpandProject(pid: data.pid, pname: data.pname, pfaculty: data.faculty, keywords: data.keyword, desc: data.desc, published: data.published, match: data.match, email: email, user_email: email)
+                            } label: {
+                                VStack
+                                {
+                                    Text(data.pname)
+                                        .bold()
+                                        .padding(.bottom,2)
+                                        .frame(maxWidth: .infinity,alignment: .leading)
+                                    ProgressView(value: data.match/100)
+                                    {
+                                        Text("Match : "+String(data.match)+"%")
+                                    }
+                                    .progressViewStyle(LinearProgressViewStyle(tint:Color(red: 2/255, green: 100/255, blue: 48/255)))
+                                    .padding(.bottom,10)
+                                    
+                                    
+                                }
+                            }
+                            
+                            
+                            
+                            
+                        }
+                            
+                        }
+                   
+                        
+                        
+                        
+                        
+                    }
                     
-                    
+                        
                     
                 }
                 
+               
+               
+               
                 
-                
+                if(isloading)
+                {
+                    ProgressView()
+                        .scaleEffect(1.2)
+                        .padding(15)
+                        .background(Color(red: 225/255, green: 225/255, blue: 225/255))
+                        .cornerRadius(12)
+                }
                 
             }
-                
+        
+            .disabled(isloading)
+        
+            .onAppear{
+                likedProjects()
             }
-            
-            if(isloading)
-            {
-                ProgressView()
-                    .scaleEffect(1.2)
-                    .padding(15)
-                    .background(Color(red: 225/255, green: 225/255, blue: 225/255))
-                    .cornerRadius(12)
-            }
-            
-        }
-        .onAppear{
-            likedProjects()
-        }
+        
+        
+        
+        
     }
+    
+   
     
     
     func likedProjects()
     {
+        plist = []
         isloading = true
         let headers = [
             "Content-Type": "application/json",
@@ -104,7 +138,7 @@ struct Likes: View {
         ["collection": "Likes",
          "database": "Interconnect",
          "dataSource": "Cluster0",
-         "filter" : ["aid":userName]
+         "filter" : ["email":email, "liked" : true, "moved" : false]
         ]
         
         let jsonData = try? JSONSerialization.data(withJSONObject: json)
@@ -127,7 +161,7 @@ struct Likes: View {
             if let responseJSON = responseJSON as? [String: NSArray] {
                
                 let document = responseJSON["documents"]!
-               print(type(of: document))
+                plist = []
                 for elem in document
                 {
                     
@@ -167,16 +201,16 @@ struct Likes: View {
                             let document = responseJSON["document"]!
                             let tags : [String] = document["tags"] as! [String]
                             let pname = document["name"] as! String
-                            let pdate = document["pdate"] as! String
                             let desc = document["description"] as! String
-                            let faculty = document["faculty"] as! String
-                            let x = project(id:UUID(),pid: pid , pname: pname, match: match,faculty: faculty,keyword: tags,published: pdate,desc: desc)
+                            let faculty = document["email"] as! String
+                            let x = project(id:UUID(),pid: pid , pname: pname, match: match,faculty: faculty,keyword: tags, published: "",desc: desc)
                             plist.append(x)
                            
                             
                             
                             
                         }
+                      
                         
                     }
                     
@@ -184,15 +218,15 @@ struct Likes: View {
                         
                         task.resume()
                     
-                    isloading = false
+                    
                    
                 }
                 
-                
+               
                 
             }
            
-           
+            isloading = false
             
         }
         
@@ -204,6 +238,6 @@ struct Likes: View {
 
 struct Likes_Previews: PreviewProvider {
     static var previews: some View {
-        Likes(userName: "")
+        Likes(email: "")
     }
 }

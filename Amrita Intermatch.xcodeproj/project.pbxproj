@@ -11,8 +11,34 @@
 		A11CA2F2291CAECA0041D413 /* ResetPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11CA2F1291CAECA0041D413 /* ResetPassword.swift */; };
 		A11CA2F4291CDCED0041D413 /* Reccomendation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11CA2F3291CDCED0041D413 /* Reccomendation.swift */; };
 		A11CA2F6291CE0330041D413 /* Likes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11CA2F5291CE0330041D413 /* Likes.swift */; };
+		A129D1E92925E03E002014B6 /* Interests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A129D1E82925E03E002014B6 /* Interests.swift */; };
+		A13EA5A3294C498400F5B3A7 /* seeProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13EA5A2294C498400F5B3A7 /* seeProfile.swift */; };
+		A13EA5A5294C566E00F5B3A7 /* ViewPDF.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13EA5A4294C566E00F5B3A7 /* ViewPDF.swift */; };
+		A13EA5A7294C6D0300F5B3A7 /* AddTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13EA5A6294C6D0300F5B3A7 /* AddTags.swift */; };
+		A13EA5A9294C7EFF00F5B3A7 /* AddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13EA5A8294C7EFF00F5B3A7 /* AddButton.swift */; };
+		A13EA5AB294DEE3900F5B3A7 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13EA5AA294DEE3900F5B3A7 /* History.swift */; };
+		A13EA5AD294E450E00F5B3A7 /* selectedProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13EA5AC294E450E00F5B3A7 /* selectedProfile.swift */; };
+		A13EA5AF294E456B00F5B3A7 /* viewColabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13EA5AE294E456B00F5B3A7 /* viewColabs.swift */; };
+		A13FEDB5296C0EDB00F9FB2E /* ReportBug.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13FEDB4296C0EDB00F9FB2E /* ReportBug.swift */; };
+		A13FEDB8296D78F000F9FB2E /* Swipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13FEDB7296D78F000F9FB2E /* Swipe.swift */; };
+		A142E11D294B858C003A31CC /* UpdateProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A142E11C294B858C003A31CC /* UpdateProject.swift */; };
+		A142E11F294B91EE003A31CC /* ExpandMyProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A142E11E294B91EE003A31CC /* ExpandMyProject.swift */; };
+		A142E121294B9718003A31CC /* ViewResponses.swift in Sources */ = {isa = PBXBuildFile; fileRef = A142E120294B9718003A31CC /* ViewResponses.swift */; };
+		A142FDF1292E2CD400FC259B /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A142FDF0292E2CD400FC259B /* SplashScreenView.swift */; };
+		A142FDF7292E44DF00FC259B /* AboutUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A142FDF6292E44DF00FC259B /* AboutUs.swift */; };
+		A14487B0297925E00030D0AB /* SUImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14487AF297925E00030D0AB /* SUImagePickerView.swift */; };
+		A15791ED292212E400C89E49 /* AddProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15791EC292212E400C89E49 /* AddProject.swift */; };
+		A15A6F8F2927984800CAAE6C /* ShowProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15A6F8E2927984800CAAE6C /* ShowProject.swift */; };
+		A15A6F9129279C7800CAAE6C /* Ideas.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15A6F9029279C7800CAAE6C /* Ideas.swift */; };
+		A15A6F932927D45000CAAE6C /* AboutMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15A6F922927D45000CAAE6C /* AboutMe.swift */; };
+		A15A6F952927DCF900CAAE6C /* Github.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15A6F942927DCF900CAAE6C /* Github.swift */; };
+		A15A6F992927DF3A00CAAE6C /* LD.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15A6F982927DF3A00CAAE6C /* LD.swift */; };
 		A15CB0F1291D51F800D60BA2 /* Load.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15CB0F0291D51F800D60BA2 /* Load.swift */; };
+		A16A0E8C2927597600C2CE29 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16A0E8B2927597600C2CE29 /* Search.swift */; };
+		A16B94D3294EDF67000D815A /* ResumeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16B94D2294EDF67000D815A /* ResumeView.swift */; };
+		A173301A292F2F4000BF2C88 /* UserDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1733019292F2F4000BF2C88 /* UserDetails.swift */; };
 		A18289B5291E984B003A0052 /* ExpandProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18289B4291E984B003A0052 /* ExpandProject.swift */; };
+		A18B14B22976BFA700CC6D29 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18B14B12976BFA700CC6D29 /* Message.swift */; };
 		A1B7B671291CF3B700BE92CB /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B7B670291CF3B700BE92CB /* Profile.swift */; };
 		A1C4A8AB291C1A1A00E7EF0A /* Amrita_IntermatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C4A8AA291C1A1A00E7EF0A /* Amrita_IntermatchApp.swift */; };
 		A1C4A8AD291C1A1A00E7EF0A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C4A8AC291C1A1A00E7EF0A /* ContentView.swift */; };
@@ -22,6 +48,11 @@
 		A1C4A8C6291C1A1B00E7EF0A /* Amrita_IntermatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C4A8C5291C1A1B00E7EF0A /* Amrita_IntermatchUITests.swift */; };
 		A1C4A8C8291C1A1B00E7EF0A /* Amrita_IntermatchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C4A8C7291C1A1B00E7EF0A /* Amrita_IntermatchUITestsLaunchTests.swift */; };
 		A1C4A8D5291C37DE00E7EF0A /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C4A8D4291C37DE00E7EF0A /* Tab.swift */; };
+		A1EF7D08292950B1002CA862 /* SwiftSMTP in Frameworks */ = {isa = PBXBuildFile; productRef = A1EF7D07292950B1002CA862 /* SwiftSMTP */; };
+		A1EF7D0C29295BDE002CA862 /* OTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EF7D0B29295BDE002CA862 /* OTPView.swift */; };
+		A1F33EEC29744D8A003079E4 /* Community.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F33EEB29744D8A003079E4 /* Community.swift */; };
+		A1F33EEF29744E09003079E4 /* CommunityDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F33EEE29744E09003079E4 /* CommunityDetails.swift */; };
+		A1F33EF12974584F003079E4 /* MessageBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F33EF02974584F003079E4 /* MessageBubble.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,8 +77,34 @@
 		A11CA2F1291CAECA0041D413 /* ResetPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPassword.swift; sourceTree = "<group>"; };
 		A11CA2F3291CDCED0041D413 /* Reccomendation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reccomendation.swift; sourceTree = "<group>"; };
 		A11CA2F5291CE0330041D413 /* Likes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Likes.swift; sourceTree = "<group>"; };
+		A129D1E82925E03E002014B6 /* Interests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interests.swift; sourceTree = "<group>"; };
+		A13EA5A2294C498400F5B3A7 /* seeProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seeProfile.swift; sourceTree = "<group>"; };
+		A13EA5A4294C566E00F5B3A7 /* ViewPDF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPDF.swift; sourceTree = "<group>"; };
+		A13EA5A6294C6D0300F5B3A7 /* AddTags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTags.swift; sourceTree = "<group>"; };
+		A13EA5A8294C7EFF00F5B3A7 /* AddButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddButton.swift; sourceTree = "<group>"; };
+		A13EA5AA294DEE3900F5B3A7 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		A13EA5AC294E450E00F5B3A7 /* selectedProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectedProfile.swift; sourceTree = "<group>"; };
+		A13EA5AE294E456B00F5B3A7 /* viewColabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewColabs.swift; sourceTree = "<group>"; };
+		A13FEDB4296C0EDB00F9FB2E /* ReportBug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportBug.swift; sourceTree = "<group>"; };
+		A13FEDB7296D78F000F9FB2E /* Swipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swipe.swift; sourceTree = "<group>"; };
+		A142E11C294B858C003A31CC /* UpdateProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateProject.swift; sourceTree = "<group>"; };
+		A142E11E294B91EE003A31CC /* ExpandMyProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandMyProject.swift; sourceTree = "<group>"; };
+		A142E120294B9718003A31CC /* ViewResponses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewResponses.swift; sourceTree = "<group>"; };
+		A142FDF0292E2CD400FC259B /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		A142FDF6292E44DF00FC259B /* AboutUs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUs.swift; sourceTree = "<group>"; };
+		A14487AF297925E00030D0AB /* SUImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUImagePickerView.swift; sourceTree = "<group>"; };
+		A15791EC292212E400C89E49 /* AddProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProject.swift; sourceTree = "<group>"; };
+		A15A6F8E2927984800CAAE6C /* ShowProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowProject.swift; sourceTree = "<group>"; };
+		A15A6F9029279C7800CAAE6C /* Ideas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ideas.swift; sourceTree = "<group>"; };
+		A15A6F922927D45000CAAE6C /* AboutMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMe.swift; sourceTree = "<group>"; };
+		A15A6F942927DCF900CAAE6C /* Github.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Github.swift; sourceTree = "<group>"; };
+		A15A6F982927DF3A00CAAE6C /* LD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LD.swift; sourceTree = "<group>"; };
 		A15CB0F0291D51F800D60BA2 /* Load.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Load.swift; sourceTree = "<group>"; };
+		A16A0E8B2927597600C2CE29 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		A16B94D2294EDF67000D815A /* ResumeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeView.swift; sourceTree = "<group>"; };
+		A1733019292F2F4000BF2C88 /* UserDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetails.swift; sourceTree = "<group>"; };
 		A18289B4291E984B003A0052 /* ExpandProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandProject.swift; sourceTree = "<group>"; };
+		A18B14B12976BFA700CC6D29 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		A1B7B670291CF3B700BE92CB /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		A1C4A8A7291C1A1A00E7EF0A /* Amrita Intermatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Amrita Intermatch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1C4A8AA291C1A1A00E7EF0A /* Amrita_IntermatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amrita_IntermatchApp.swift; sourceTree = "<group>"; };
@@ -60,6 +117,10 @@
 		A1C4A8C5291C1A1B00E7EF0A /* Amrita_IntermatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amrita_IntermatchUITests.swift; sourceTree = "<group>"; };
 		A1C4A8C7291C1A1B00E7EF0A /* Amrita_IntermatchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amrita_IntermatchUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A1C4A8D4291C37DE00E7EF0A /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		A1EF7D0B29295BDE002CA862 /* OTPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPView.swift; sourceTree = "<group>"; };
+		A1F33EEB29744D8A003079E4 /* Community.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Community.swift; sourceTree = "<group>"; };
+		A1F33EEE29744E09003079E4 /* CommunityDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityDetails.swift; sourceTree = "<group>"; };
+		A1F33EF02974584F003079E4 /* MessageBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubble.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1EF7D08292950B1002CA862 /* SwiftSMTP in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,9 +177,36 @@
 				A1C4A8AE291C1A1B00E7EF0A /* Assets.xcassets */,
 				A1C4A8B0291C1A1B00E7EF0A /* Preview Content */,
 				A1C4A8D4291C37DE00E7EF0A /* Tab.swift */,
-				A15CB0F0291D51F800D60BA2 /* Load.swift */,
-				A1B7B670291CF3B700BE92CB /* Profile.swift */,
+				A1F33EED29744DE1003079E4 /* Community */,
+				A13FEDB4296C0EDB00F9FB2E /* ReportBug.swift */,
+				A14487AF297925E00030D0AB /* SUImagePickerView.swift */,
+				A13EA5AA294DEE3900F5B3A7 /* History.swift */,
+				A13FEDB7296D78F000F9FB2E /* Swipe.swift */,
 				A11CA2F3291CDCED0041D413 /* Reccomendation.swift */,
+				A13EA5AC294E450E00F5B3A7 /* selectedProfile.swift */,
+				A13EA5A8294C7EFF00F5B3A7 /* AddButton.swift */,
+				A142E11C294B858C003A31CC /* UpdateProject.swift */,
+				A13EA5A2294C498400F5B3A7 /* seeProfile.swift */,
+				A13EA5A6294C6D0300F5B3A7 /* AddTags.swift */,
+				A13EA5A4294C566E00F5B3A7 /* ViewPDF.swift */,
+				A13EA5AE294E456B00F5B3A7 /* viewColabs.swift */,
+				A142E120294B9718003A31CC /* ViewResponses.swift */,
+				A1733019292F2F4000BF2C88 /* UserDetails.swift */,
+				A16B94D2294EDF67000D815A /* ResumeView.swift */,
+				A142FDF6292E44DF00FC259B /* AboutUs.swift */,
+				A142E11E294B91EE003A31CC /* ExpandMyProject.swift */,
+				A1EF7D0B29295BDE002CA862 /* OTPView.swift */,
+				A15A6F942927DCF900CAAE6C /* Github.swift */,
+				A15A6F982927DF3A00CAAE6C /* LD.swift */,
+				A15A6F922927D45000CAAE6C /* AboutMe.swift */,
+				A15A6F9029279C7800CAAE6C /* Ideas.swift */,
+				A142FDF0292E2CD400FC259B /* SplashScreenView.swift */,
+				A15A6F8E2927984800CAAE6C /* ShowProject.swift */,
+				A16A0E8B2927597600C2CE29 /* Search.swift */,
+				A129D1E82925E03E002014B6 /* Interests.swift */,
+				A15CB0F0291D51F800D60BA2 /* Load.swift */,
+				A15791EC292212E400C89E49 /* AddProject.swift */,
+				A1B7B670291CF3B700BE92CB /* Profile.swift */,
 				A11CA2EF291CA8EB0041D413 /* RegisterView.swift */,
 				A11CA2F5291CE0330041D413 /* Likes.swift */,
 				A18289B4291E984B003A0052 /* ExpandProject.swift */,
@@ -151,6 +240,17 @@
 			path = "Amrita IntermatchUITests";
 			sourceTree = "<group>";
 		};
+		A1F33EED29744DE1003079E4 /* Community */ = {
+			isa = PBXGroup;
+			children = (
+				A1F33EEB29744D8A003079E4 /* Community.swift */,
+				A1F33EEE29744E09003079E4 /* CommunityDetails.swift */,
+				A1F33EF02974584F003079E4 /* MessageBubble.swift */,
+				A18B14B12976BFA700CC6D29 /* Message.swift */,
+			);
+			path = Community;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -167,6 +267,9 @@
 			dependencies = (
 			);
 			name = "Amrita Intermatch";
+			packageProductDependencies = (
+				A1EF7D07292950B1002CA862 /* SwiftSMTP */,
+			);
 			productName = "Amrita Intermatch";
 			productReference = A1C4A8A7291C1A1A00E7EF0A /* Amrita Intermatch.app */;
 			productType = "com.apple.product-type.application";
@@ -239,6 +342,9 @@
 				Base,
 			);
 			mainGroup = A1C4A89E291C1A1A00E7EF0A;
+			packageReferences = (
+				A1EF7D06292950B1002CA862 /* XCRemoteSwiftPackageReference "Swift-SMTP" */,
+			);
 			productRefGroup = A1C4A8A8291C1A1A00E7EF0A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -281,16 +387,46 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A15A6F952927DCF900CAAE6C /* Github.swift in Sources */,
 				A1C4A8D5291C37DE00E7EF0A /* Tab.swift in Sources */,
+				A1F33EEF29744E09003079E4 /* CommunityDetails.swift in Sources */,
 				A1B7B671291CF3B700BE92CB /* Profile.swift in Sources */,
+				A1F33EEC29744D8A003079E4 /* Community.swift in Sources */,
 				A11CA2F0291CA8EB0041D413 /* RegisterView.swift in Sources */,
 				A11CA2F2291CAECA0041D413 /* ResetPassword.swift in Sources */,
+				A13EA5A5294C566E00F5B3A7 /* ViewPDF.swift in Sources */,
 				A15CB0F1291D51F800D60BA2 /* Load.swift in Sources */,
+				A18B14B22976BFA700CC6D29 /* Message.swift in Sources */,
+				A13FEDB8296D78F000F9FB2E /* Swipe.swift in Sources */,
+				A142E121294B9718003A31CC /* ViewResponses.swift in Sources */,
+				A142FDF7292E44DF00FC259B /* AboutUs.swift in Sources */,
 				A1C4A8AD291C1A1A00E7EF0A /* ContentView.swift in Sources */,
 				A11CA2F4291CDCED0041D413 /* Reccomendation.swift in Sources */,
+				A16B94D3294EDF67000D815A /* ResumeView.swift in Sources */,
+				A13EA5A9294C7EFF00F5B3A7 /* AddButton.swift in Sources */,
 				A1C4A8AB291C1A1A00E7EF0A /* Amrita_IntermatchApp.swift in Sources */,
+				A13EA5A7294C6D0300F5B3A7 /* AddTags.swift in Sources */,
+				A142E11D294B858C003A31CC /* UpdateProject.swift in Sources */,
+				A13FEDB5296C0EDB00F9FB2E /* ReportBug.swift in Sources */,
 				A11CA2F6291CE0330041D413 /* Likes.swift in Sources */,
+				A14487B0297925E00030D0AB /* SUImagePickerView.swift in Sources */,
+				A13EA5AD294E450E00F5B3A7 /* selectedProfile.swift in Sources */,
+				A15A6F932927D45000CAAE6C /* AboutMe.swift in Sources */,
+				A142E11F294B91EE003A31CC /* ExpandMyProject.swift in Sources */,
 				A18289B5291E984B003A0052 /* ExpandProject.swift in Sources */,
+				A15791ED292212E400C89E49 /* AddProject.swift in Sources */,
+				A13EA5A3294C498400F5B3A7 /* seeProfile.swift in Sources */,
+				A142FDF1292E2CD400FC259B /* SplashScreenView.swift in Sources */,
+				A15A6F9129279C7800CAAE6C /* Ideas.swift in Sources */,
+				A15A6F8F2927984800CAAE6C /* ShowProject.swift in Sources */,
+				A13EA5AB294DEE3900F5B3A7 /* History.swift in Sources */,
+				A1F33EF12974584F003079E4 /* MessageBubble.swift in Sources */,
+				A13EA5AF294E456B00F5B3A7 /* viewColabs.swift in Sources */,
+				A173301A292F2F4000BF2C88 /* UserDetails.swift in Sources */,
+				A129D1E92925E03E002014B6 /* Interests.swift in Sources */,
+				A15A6F992927DF3A00CAAE6C /* LD.swift in Sources */,
+				A1EF7D0C29295BDE002CA862 /* OTPView.swift in Sources */,
+				A16A0E8C2927597600C2CE29 /* Search.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,11 +588,15 @@
 				DEVELOPMENT_TEAM = 9ALZTYWPL6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Amrita Intermatch";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,9 +604,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "kvaisakhkrishnan.Amrita-Intermatch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -481,11 +624,15 @@
 				DEVELOPMENT_TEAM = 9ALZTYWPL6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Amrita Intermatch";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -493,9 +640,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "kvaisakhkrishnan.Amrita-Intermatch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -547,6 +697,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9ALZTYWPL6;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "kvaisakhkrishnan.Amrita-IntermatchUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -565,6 +716,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9ALZTYWPL6;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "kvaisakhkrishnan.Amrita-IntermatchUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -615,6 +767,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A1EF7D06292950B1002CA862 /* XCRemoteSwiftPackageReference "Swift-SMTP" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Kitura/Swift-SMTP";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A1EF7D07292950B1002CA862 /* SwiftSMTP */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A1EF7D06292950B1002CA862 /* XCRemoteSwiftPackageReference "Swift-SMTP" */;
+			productName = SwiftSMTP;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A1C4A89F291C1A1A00E7EF0A /* Project object */;
 }
